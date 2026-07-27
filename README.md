@@ -4,7 +4,7 @@ This repository contains the complete pipeline to reproduce the experiments desc
 Prerequisites
 Dataset: The raw dataset is available at https://github.com/lzc1314141/Datasets
 
-Supplementary files: All additional required files (e.g., helper scripts, pre‑trained components) are provided in the official source code of the SPLICE paper. Please download them from the SPLICE repository before starting.
+Supplementary files: All additional required files are provided in the official source code of the SPLICE paper. Please download them from the SPLICE repository before starting.
 
 Pipeline Overview
 The whole process consists of four main stages:
