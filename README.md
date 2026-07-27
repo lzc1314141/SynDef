@@ -2,7 +2,7 @@ README
 This repository contains the complete pipeline to reproduce the experiments described in our work. The workflow covers data preprocessing, DFA data generation, model training, and final evaluation.
 
 Prerequisites
-Dataset: The raw dataset is available at [DATASET_LINK] (to be filled in by the user).
+Dataset: The raw dataset is available at [[DATASET_LINK] (to be filled in by the user)](https://github.com/lzc1314141/Datasets).
 
 Supplementary files: All additional required files (e.g., helper scripts, pre‑trained components) are provided in the official source code of the SPLICE paper. Please download them from the SPLICE repository before starting.
 
