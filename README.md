@@ -22,7 +22,6 @@ conda activate syndef_env
 pip install -r requirements.txt
 ```
 
-> **Note**: The Python version (3.9.5) is taken from `environment.yml`; the content of `requirements.txt` stays unchanged.
 
 ## Pipeline Overview
 
