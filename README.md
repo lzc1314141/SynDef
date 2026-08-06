@@ -48,7 +48,6 @@ python lineautomat_sourcedata.py # Step 1c
 
 After these steps, the DFA data will be successfully created.
 
-> **Note**: The `to_java.py` script produces multiple dataset files of different versions. These files will be used in the next step.
 
 ### B. Organise the Generated Datasets
 
