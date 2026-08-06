@@ -22,7 +22,6 @@ conda activate syndef_env
 pip install -r requirements.txt
 ```
 
-> **Note**: The Python version (3.9.5) is taken from `environment.yml`; the content of `requirements.txt` stays unchanged.
 
 ## Pipeline Overview
 
@@ -48,6 +47,7 @@ python lineautomat_sourcedata.py # Step 1c
 
 After these steps, the DFA data will be successfully created.
 
+> **Note**: The `to_java.py` script produces multiple dataset files of different versions. These files will be used in the next step.
 
 ### B. Organise the Generated Datasets
 
