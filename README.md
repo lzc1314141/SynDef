@@ -22,6 +22,7 @@ conda activate syndef_env
 pip install -r requirements.txt
 ```
 
+> **Note**: The Python version (3.9.5) is taken from `environment.yml`; the content of `requirements.txt` stays unchanged.
 
 ## Pipeline Overview
 
@@ -83,6 +84,33 @@ The final metrics and predictions will be printed to the console or saved to out
 
 - **File paths**: All scripts contain hard-coded or relative paths. Please modify them to match your local directory structure before running any script.
 - **Missing files**: If you encounter errors about missing dependencies or data, refer to the official SPLICE source code repository to download the required supplementary materials.
+
+## Project Structure
+
+Below is an overview of the file structure to help you understand the organization of the repository:
+
+```
+.
+├─ README.md
+├─ line-automat/
+│  ├─ clean_sourcedata.py
+│  ├─ lineautomat_sourcedata.py
+│  └─ to_java.py
+└─ SynDef/
+   ├─ RQ/
+   │  ├─ RQ1/
+   │  │  ├─ Hit_and_Over.R
+   │  │  ├─ TN_Upset.R
+   │  │  └─ TP_Upset.R
+   │  └─ RQ2/
+   │     ├─ RQ2_Compare.R
+   │     └─ SynDef.R
+   ├─ Syndef.py
+   ├─ automat.py
+   └─ transformer.py
+```
+
+> **Note**: Directories such as `File-level/`, `automat-traindata/`, `transform-traindata/`, `sourcedata/`, `n_gram_result/`, and `line-automat/sourcefile/` are created automatically when the scripts run, so they are not listed here.
 
 ## Contact
 
